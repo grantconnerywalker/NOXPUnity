@@ -9,12 +9,12 @@ public class BulletBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Rigidbody ourRigidbody = GetComponent<Rigidbody>();
+        ourRigidbody.velocity = transform.forward * bulletSpeed;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position += transform.forward * bulletSpeed * Time.deltaTime;
     }
 }

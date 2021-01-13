@@ -28,6 +28,7 @@ public class PlayerBehavior : MonoBehaviour
         Vector3 inputVector = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")); // directional input
         Vector3 movementVector = inputVector * maxDistanceToMove; // how far we will move
         Vector3 newPosition = transform.position + movementVector; // position we are moving to
+
         // Look at new position, then move there
         transform.LookAt(newPosition);
         transform.position = newPosition;
@@ -39,7 +40,7 @@ public class PlayerBehavior : MonoBehaviour
         // Click to fire (GetButton for hold, GetButtonDown for semi automatic)
         if (Input.GetButton("Fire1"))
         {
-            Instantiate(bulletPrefab, transform.position, transform.rotation);
+            Instantiate(bulletPrefab, transform.position + transform.forward, transform.rotation);
         }
     }
 }
