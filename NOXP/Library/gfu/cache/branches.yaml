@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-01-12T18:49:53.598-08:00
-  initializedAtString: 2021-01-12T18:39:06.621-08:00
+  lastUpdatedAtString: 2021-01-14T18:43:24.492-08:00
+  initializedAtString: 2021-01-14T18:34:34.607-08:00
   localBranches:
   - name: experiment
-    tracking: 
+    tracking: origin/experiment
   - name: main
     tracking: origin/main
   remoteBranches:
@@ -42,9 +42,9 @@ MonoBehaviour:
     values:
     - name: experiment
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: https://github.com/grantconnerywalker/NOXPUnity.git
+      trackingBranch: experiment
     - name: main
       remote:
         name: origin

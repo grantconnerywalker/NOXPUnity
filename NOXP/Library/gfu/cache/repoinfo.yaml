@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-01-12T18:39:04.552-08:00
-  initializedAtString: 2021-01-12T18:39:04.552-08:00
+  lastUpdatedAtString: 2021-01-14T18:50:42.720-08:00
+  initializedAtString: 2021-01-14T18:34:34.392-08:00
   currentGitRemote:
     name: origin
     url: https://github.com/grantconnerywalker/NOXPUnity.git
@@ -25,13 +25,13 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: experiment
-    tracking: 
+    tracking: origin/experiment
   currentConfigBranch:
     name: experiment
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/grantconnerywalker/NOXPUnity.git
+    trackingBranch: experiment
   currentConfigRemote:
     name: origin
     url: https://github.com/grantconnerywalker/NOXPUnity.git

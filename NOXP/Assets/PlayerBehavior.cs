@@ -23,19 +23,13 @@ public class PlayerBehavior : MonoBehaviour
         Debug.Log("Horizontal: " + Input.GetAxis("Horizontal"));
 
         // WASD to move
-        // Find the new position we'll move to
-        float maxDistanceToMove = playerSpeed * Time.deltaTime;
         Vector3 inputVector = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")); // directional input
-        Vector3 movementVector = inputVector * maxDistanceToMove; // how far we will move
-        Vector3 newPosition = transform.position + movementVector; // position we are moving to
+        Rigidbody ourRigidbody = GetComponent<Rigidbody>();
+        ourRigidbody.velocity = inputVector * playerSpeed;
 
-        // Look at new position, then move there
-        transform.LookAt(newPosition);
-        transform.position = newPosition;
-
-        // If you want WASD to scale instead of change position for some reason lol (toggle ot change size to solve puzzles or something...?)
-        //transform.localScale += Vector3.one * Input.GetAxis("Vertical") * maxDistanceToMove;
-        //transform.localScale += Vector3.right * Input.GetAxis("Horizontal") * maxDistanceToMove;
+        // Look toward new position
+        Vector3 lookAtPosition = transform.position + inputVector;
+        transform.LookAt(lookAtPosition);
 
         // Click to fire (GetButton for hold, GetButtonDown for semi automatic)
         if (Input.GetButton("Fire1"))
