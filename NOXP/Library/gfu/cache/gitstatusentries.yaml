@@ -13,21 +13,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-01-14T18:51:44.553-08:00
-  initializedAtString: 2021-01-14T18:34:34.493-08:00
+  lastUpdatedAtString: 2021-01-21T18:41:13.515-08:00
+  initializedAtString: 2021-01-21T18:41:08.086-08:00
   entries:
-  - path: NOXP\Assets\Bullet.prefab
-    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Assets\Bullet.prefab
-    projectPath: Assets\Bullet.prefab
+  - path: NOXP\Assets\BulletBehavior.cs
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Assets\BulletBehavior.cs
+    projectPath: Assets\BulletBehavior.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: NOXP\Assets\PlayerBehavior.cs
-    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Assets\PlayerBehavior.cs
-    projectPath: Assets\PlayerBehavior.cs
+  - path: NOXP\Assets\Enemy.prefab
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Assets\Enemy.prefab
+    projectPath: Assets\Enemy.prefab
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Assets\Enemy.prefab.meta
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Assets\Enemy.prefab.meta
+    projectPath: Assets\Enemy.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Assets\EnemyBehavior.cs
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Assets\EnemyBehavior.cs
+    projectPath: Assets\EnemyBehavior.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Assets\EnemyBehavior.cs.meta
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Assets\EnemyBehavior.cs.meta
+    projectPath: Assets\EnemyBehavior.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Assets\EnemyMaterial.mat
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Assets\EnemyMaterial.mat
+    projectPath: Assets\EnemyMaterial.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Assets\EnemyMaterial.mat.meta
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Assets\EnemyMaterial.mat.meta
+    projectPath: Assets\EnemyMaterial.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: NOXP\Assets\Scenes\SampleScene.unity
     fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Assets\Scenes\SampleScene.unity
     projectPath: Assets\Scenes\SampleScene.unity
@@ -88,36 +118,150 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: NOXP\Library\gfu\cache\gituser.yaml
-    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\gfu\cache\gituser.yaml
-    projectPath: Library\gfu\cache\gituser.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: NOXP\Library\gfu\cache\repoinfo.yaml
     fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: NOXP\Library\metadata\40\40c775e9f23969948aa3a9bc195b5019
-    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\metadata\40\40c775e9f23969948aa3a9bc195b5019
-    projectPath: Library\metadata\40\40c775e9f23969948aa3a9bc195b5019
+  - path: NOXP\Library\InspectorExpandedItems.asset
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: NOXP\Library\metadata\bb\bbbceacde5f76894497922079fb9baff
-    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\metadata\bb\bbbceacde5f76894497922079fb9baff
-    projectPath: Library\metadata\bb\bbbceacde5f76894497922079fb9baff
+  - path: NOXP\Library\metadata\11\117c0bb01fb0b54479e87fc70de7d5e6
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\metadata\11\117c0bb01fb0b54479e87fc70de7d5e6
+    projectPath: Library\metadata\11\117c0bb01fb0b54479e87fc70de7d5e6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Library\metadata\11\117c0bb01fb0b54479e87fc70de7d5e6.info
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\metadata\11\117c0bb01fb0b54479e87fc70de7d5e6.info
+    projectPath: Library\metadata\11\117c0bb01fb0b54479e87fc70de7d5e6.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Library\metadata\47\4708cb65d8d2d5748a6c9c13c3adf604
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\metadata\47\4708cb65d8d2d5748a6c9c13c3adf604
+    projectPath: Library\metadata\47\4708cb65d8d2d5748a6c9c13c3adf604
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: NOXP\Library\metadata\b0\b004fb80a858a7b44a6c0b6098b32ea4
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\metadata\b0\b004fb80a858a7b44a6c0b6098b32ea4
+    projectPath: Library\metadata\b0\b004fb80a858a7b44a6c0b6098b32ea4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Library\metadata\b0\b004fb80a858a7b44a6c0b6098b32ea4.info
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\metadata\b0\b004fb80a858a7b44a6c0b6098b32ea4.info
+    projectPath: Library\metadata\b0\b004fb80a858a7b44a6c0b6098b32ea4.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Library\metadata\ba\ba77ddfe973f6fc4cad5da846f6b4ea3
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\metadata\ba\ba77ddfe973f6fc4cad5da846f6b4ea3
+    projectPath: Library\metadata\ba\ba77ddfe973f6fc4cad5da846f6b4ea3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Library\metadata\ba\ba77ddfe973f6fc4cad5da846f6b4ea3.info
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\metadata\ba\ba77ddfe973f6fc4cad5da846f6b4ea3.info
+    projectPath: Library\metadata\ba\ba77ddfe973f6fc4cad5da846f6b4ea3.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: NOXP\Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: NOXP\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: NOXP\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: NOXP\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: NOXP\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: NOXP\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: NOXP\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: NOXP\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: NOXP\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: NOXP\Library\ShaderCache\0\039debf8f7306719c711a44da6079c10.bin
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\ShaderCache\0\039debf8f7306719c711a44da6079c10.bin
+    projectPath: Library\ShaderCache\0\039debf8f7306719c711a44da6079c10.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Library\ShaderCache\4\41f501c7a981514bfebb4980091ba161.bin
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\ShaderCache\4\41f501c7a981514bfebb4980091ba161.bin
+    projectPath: Library\ShaderCache\4\41f501c7a981514bfebb4980091ba161.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Library\ShaderCache\4\4badfbd25b84916054bc85f1918c44fd.bin
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\ShaderCache\4\4badfbd25b84916054bc85f1918c44fd.bin
+    projectPath: Library\ShaderCache\4\4badfbd25b84916054bc85f1918c44fd.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Library\ShaderCache\8\8aceca089330a3199a200eb27546c8e5.bin
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\ShaderCache\8\8aceca089330a3199a200eb27546c8e5.bin
+    projectPath: Library\ShaderCache\8\8aceca089330a3199a200eb27546c8e5.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Library\ShaderCache\b\bc01bc125a9266915ebd61e841a9d202.bin
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\ShaderCache\b\bc01bc125a9266915ebd61e841a9d202.bin
+    projectPath: Library\ShaderCache\b\bc01bc125a9266915ebd61e841a9d202.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Library\ShaderCache\b\bc3753c6bf772cb540bb6a7641ee483b.bin
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\ShaderCache\b\bc3753c6bf772cb540bb6a7641ee483b.bin
+    projectPath: Library\ShaderCache\b\bc3753c6bf772cb540bb6a7641ee483b.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: NOXP\Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
@@ -136,18 +280,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: NOXP\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+  - path: NOXP\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: NOXP\Temp\__Backupscenes\0.backup
-    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Temp\__Backupscenes\0.backup
-    projectPath: Temp\__Backupscenes\0.backup
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: NOXP\Temp\ProcessJobs\06612c125c414c86eb0c821e7bc61e5d.bakert
     fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Temp\ProcessJobs\06612c125c414c86eb0c821e7bc61e5d.bakert
     projectPath: Temp\ProcessJobs\06612c125c414c86eb0c821e7bc61e5d.bakert
@@ -160,9 +298,57 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: NOXP\Temp\UnityTempFile-81fa7b1f375f70043b2809958840cc43
-    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Temp\UnityTempFile-81fa7b1f375f70043b2809958840cc43
-    projectPath: Temp\UnityTempFile-81fa7b1f375f70043b2809958840cc43
+  - path: NOXP\Temp\UnityTempFile-34de6f12b39385145b9e811afb26fdaf
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Temp\UnityTempFile-34de6f12b39385145b9e811afb26fdaf
+    projectPath: Temp\UnityTempFile-34de6f12b39385145b9e811afb26fdaf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Temp\UnityTempFile-450cff29eecfd0f4c9e47e6f07eeb840
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Temp\UnityTempFile-450cff29eecfd0f4c9e47e6f07eeb840
+    projectPath: Temp\UnityTempFile-450cff29eecfd0f4c9e47e6f07eeb840
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Temp\UnityTempFile-678b828da0cdd40439fdf75c3892fdcd
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Temp\UnityTempFile-678b828da0cdd40439fdf75c3892fdcd
+    projectPath: Temp\UnityTempFile-678b828da0cdd40439fdf75c3892fdcd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Temp\UnityTempFile-7add984a83628304a9cc6dd44d8198df
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Temp\UnityTempFile-7add984a83628304a9cc6dd44d8198df
+    projectPath: Temp\UnityTempFile-7add984a83628304a9cc6dd44d8198df
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Temp\UnityTempFile-8b3609fed016f5644948837f5f0ead08
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Temp\UnityTempFile-8b3609fed016f5644948837f5f0ead08
+    projectPath: Temp\UnityTempFile-8b3609fed016f5644948837f5f0ead08
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Temp\UnityTempFile-99134fb270e982e4f822d38cff69b9c8
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Temp\UnityTempFile-99134fb270e982e4f822d38cff69b9c8
+    projectPath: Temp\UnityTempFile-99134fb270e982e4f822d38cff69b9c8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Temp\UnityTempFile-bc380a4033530ae42acf5412307ae469
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Temp\UnityTempFile-bc380a4033530ae42acf5412307ae469
+    projectPath: Temp\UnityTempFile-bc380a4033530ae42acf5412307ae469
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Temp\UnityTempFile-c63ee4f0f72cee243ba086f1b1144aa5
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Temp\UnityTempFile-c63ee4f0f72cee243ba086f1b1144aa5
+    projectPath: Temp\UnityTempFile-c63ee4f0f72cee243ba086f1b1144aa5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: NOXP\Temp\UnityTempFile-d9622aa870f12aa4aa30965e13d52b30
+    fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Temp\UnityTempFile-d9622aa870f12aa4aa30965e13d52b30
+    projectPath: Temp\UnityTempFile-d9622aa870f12aa4aa30965e13d52b30
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

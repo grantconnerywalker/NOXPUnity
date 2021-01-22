@@ -13,9 +13,147 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-01-14T18:51:39.298-08:00
-  initializedAtString: 2021-01-14T18:34:36.921-08:00
+  lastUpdatedAtString: 2021-01-21T18:29:46.893-08:00
+  initializedAtString: 2021-01-21T17:44:42.930-08:00
   log:
+  - commitID: 6427c15a1231c453da9be5098ac6709c63cadbae
+    mergeA: 
+    mergeB: 
+    authorName: grantconnerywalker
+    authorEmail: grant.connery.walker@gmail.com
+    commitEmail: grant.connery.walker@gmail.com
+    commitName: grantconnerywalker
+    summary: Collision with wall, player is rigidbody
+    description: 
+    timeString: 2021-01-14T18:53:31.000-08:00
+    commitTimeString: 2021-01-14T18:53:31.000-08:00
+    changes:
+    - path: NOXP\Assets\Bullet.prefab
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Assets\Bullet.prefab
+      projectPath: Assets\Bullet.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Assets\PlayerBehavior.cs
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Assets\PlayerBehavior.cs
+      projectPath: Assets\PlayerBehavior.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Assets\Scenes\SampleScene.unity
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Library\Collab\CollabSnapshot_5274f79a-1e9c-4ccd-a516-abad70b05c16.txt
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\Collab\CollabSnapshot_5274f79a-1e9c-4ccd-a516-abad70b05c16.txt
+      projectPath: Library\Collab\CollabSnapshot_5274f79a-1e9c-4ccd-a516-abad70b05c16.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Library\CurrentLayout.dwlt
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Library\EditorInstance.json
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Library\StateCache\Hierarchy\8119c5-mainStage.json
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\StateCache\Hierarchy\8119c5-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\8119c5-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Library\StateCache\SceneView\7faf9e-mainStage.json
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\StateCache\SceneView\7faf9e-mainStage.json
+      projectPath: Library\StateCache\SceneView\7faf9e-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Library\assetDatabase3
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Library\gfu\cache\branches.yaml
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Library\gfu\cache\gitlocks.yaml
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Library\gfu\cache\gitlog.yaml
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Library\gfu\cache\gituser.yaml
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Library\gfu\cache\repoinfo.yaml
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Library\metadata\40\40c775e9f23969948aa3a9bc195b5019
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\metadata\40\40c775e9f23969948aa3a9bc195b5019
+      projectPath: Library\metadata\40\40c775e9f23969948aa3a9bc195b5019
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Library\metadata\bb\bbbceacde5f76894497922079fb9baff
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\metadata\bb\bbbceacde5f76894497922079fb9baff
+      projectPath: Library\metadata\bb\bbbceacde5f76894497922079fb9baff
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NOXP\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: E:\Users\Pills\Documents\NOXPUnity\NOXP\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 82e907e8da8513f8413620bb102403ac2e7ad742
     mergeA: 
     mergeB: 
